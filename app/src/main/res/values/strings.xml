@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Taller 1</string>
+
+    <string name="principal_title">Servicio Nacional de Apredizaje, SENA.</string>
+    <string name="principal_sub_title">Especialización Tecnológica en Desarrollo de Aplicaciones para Móviles.</string>
+
+    <string name="principal_button_imc">Indice de Masa Corporal (IMC)</string>
+    <string name="principal_button_vacaciones">Calcular vacaciones</string>
+    <string name="principal_button_calculadora">Calculadora</string>
+    <string name="principal_button_bienes_raices">Bienes raíces</string>
+    <string name="principal_button_get">Gasto Energético Total (GET)</string>
+    <string name="principal_button_autos">Autos F1 (ListView)</string>
+    <string name="principal_correo">jcjimenez29@misena.edu.co</string>
+    <string name="action_settings">Configuración</string>
+    <string name="action_salir">Salir</string>
+</resources>

@@ -1,0 +1,86 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    android:paddingBottom="16dp"
+    tools:context=".MainActivity"
+    android:nestedScrollingEnabled="false">
+
+    <TextView android:text="@string/principal_title" android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:id="@+id/tv_Titulo"
+        android:textSize="18dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/principal_sub_title"
+        android:id="@+id/tv_SubTitulo"
+        android:layout_below="@+id/tv_Titulo"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textSize="13dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/principal_correo"
+        android:id="@+id/tv_Creditos"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/principal_button_imc"
+        android:id="@+id/btn_IMC"
+        android:layout_below="@+id/tv_SubTitulo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/principal_button_vacaciones"
+        android:id="@+id/btn_Vacaciones"
+        android:layout_below="@+id/btn_IMC"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/principal_button_calculadora"
+        android:id="@+id/btn_Calculadora"
+        android:layout_below="@+id/btn_Vacaciones"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/principal_button_bienes_raices"
+        android:id="@+id/btn_BienesRaices"
+        android:layout_below="@+id/btn_Calculadora"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/principal_button_get"
+        android:id="@+id/btn_GET"
+        android:layout_below="@+id/btn_BienesRaices"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_Autos"
+        android:layout_below="@+id/btn_GET"
+        android:layout_centerHorizontal="true"
+        android:text="@string/principal_button_autos" />
+
+</RelativeLayout>
