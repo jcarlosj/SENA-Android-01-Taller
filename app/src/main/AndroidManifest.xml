@@ -16,6 +16,24 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".IMCActivity"
+            android:label="Índice de Masa Corporal" />
+        <activity
+            android:name=".VacacionesActivity"
+            android:label="Calcular vacaciones" />
+        <activity
+            android:name=".CalculadoraActivity"
+            android:label="Calculadora básica" />
+        <activity
+            android:name=".BienesRaicesActivity"
+            android:label="Calcular couta inicial y mensual" />
+        <activity
+            android:name=".GetActivity"
+            android:label="Gasto Energético Corporal" />
+        <activity
+            android:name=".AutosActivity"
+            android:label="Autos" />
     </application>
 
 </manifest>

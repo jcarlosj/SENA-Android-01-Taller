@@ -1,9 +1,11 @@
 package co.jce.sena.taller1;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -34,4 +36,35 @@ public class MainActivity extends AppCompatActivity {
 
         return super.onOptionsItemSelected(item);
     }
+
+    public void imc( View v ) {
+        Intent i = new Intent( this, IMCActivity.class );
+        startActivity( i );
+    }
+
+    public void vacaciones( View v ) {
+        Intent i = new Intent( this, VacacionesActivity.class );
+        startActivity( i );
+    }
+
+    public void calculadora( View v ) {
+        Intent i = new Intent( this, CalculadoraActivity.class );
+        startActivity( i );
+    }
+
+    public void bienes_raices( View v ) {
+        Intent i = new Intent( this, BienesRaicesActivity.class );
+        startActivity( i );
+    }
+
+    public void get( View v ) {
+        Intent i = new Intent( this, GetActivity.class );
+        startActivity( i );
+    }
+
+    public void autos( View v ) {
+        Intent i = new Intent( this, AutosActivity.class );
+        startActivity( i );
+    }
+
 }

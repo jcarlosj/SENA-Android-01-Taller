@@ -1,16 +1,37 @@
 <resources>
+
+    <string name="action_salir">Salir</string>
+    <string name="action_settings">Configuración</string>
+
     <string name="app_name">Taller 1</string>
 
-    <string name="principal_title">Servicio Nacional de Apredizaje, SENA.</string>
-    <string name="principal_sub_title">Especialización Tecnológica en Desarrollo de Aplicaciones para Móviles.</string>
+    <string name="button_autos">Autos</string>
+    <string name="button_bienes_raices">Bienes raíces</string>
+    <string name="button_calculadora">Calculadora</string>
+    <string name="button_calcular">Calcular</string>
+    <string name="button_get">Gasto Energético Total (GET)</string>
+    <string name="button_imc">Indice de Masa Corporal (IMC)</string>
+    <string name="button_vacaciones">Calcular vacaciones</string>
 
-    <string name="principal_button_imc">Indice de Masa Corporal (IMC)</string>
-    <string name="principal_button_vacaciones">Calcular vacaciones</string>
-    <string name="principal_button_calculadora">Calculadora</string>
-    <string name="principal_button_bienes_raices">Bienes raíces</string>
-    <string name="principal_button_get">Gasto Energético Total (GET)</string>
-    <string name="principal_button_autos">Autos F1 (ListView)</string>
-    <string name="principal_correo">jcjimenez29@misena.edu.co</string>
-    <string name="action_settings">Configuración</string>
-    <string name="action_salir">Salir</string>
+    <string name="label_antiguedad">Antigüedad.</string>
+    <string name="label_autos">Para ver más detalles seleccione un auto de la lista.</string>
+    <string name="label_actividad_fisica">Actividad física</string>
+    <string name="label_bienes_raices">Para calcular el valor a pagar por cuota inicial y mensual y la cantidad de coutas para la adquisición de vivienda de interés social se requiere los siguientes datos.</string>
+    <string name="label_calculadora">Calculadora básica.</string>
+    <string name="label_correo">jcjimenez29@misena.edu.co</string>
+    <string name="label_directivo">Directivo.</string>
+    <string name="label_edad">Edad.</string>
+    <string name="label_estatura">Estatura (cm).</string>
+    <string name="label_get">Para calcular su Gasto Energético Total (GET) se requiere los siguientes datos.</string>
+    <string name="label_imc">Para calcular su IMC se requiere los siguientes datos.</string>
+    <string name="label_ingreso_mensual">Ingreso mensual.</string>
+    <string name="label_no">No.</string>
+    <string name="label_nombres">Nombres.</string>
+    <string name="label_peso">Peso (kg).</string>
+    <string name="label_sena">Servicio Nacional de Apredizaje, SENA.</string>
+    <string name="label_si">Si.</string>
+    <string name="label_titulacion">Especialización Tecnológica en Desarrollo de Aplicaciones para Móviles.</string>
+    <string name="label_vacaciones">Para calcular el pago de vacaciones se requiere los siguientes datos.</string>
+    <string name="label_valor_casa">Valor del inmueble.</string>
+
 </resources>

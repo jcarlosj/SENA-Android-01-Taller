@@ -1,5 +1,6 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:paddingLeft="16dp"
     android:paddingRight="16dp"
@@ -8,7 +9,8 @@
     tools:context=".MainActivity"
     android:nestedScrollingEnabled="false">
 
-    <TextView android:text="@string/principal_title" android:layout_width="match_parent"
+    <TextView android:text="@string/label_sena"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textStyle="bold"
         android:id="@+id/tv_Titulo"
@@ -17,7 +19,7 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/principal_sub_title"
+        android:text="@string/label_titulacion"
         android:id="@+id/tv_SubTitulo"
         android:layout_below="@+id/tv_Titulo"
         android:layout_alignParentLeft="true"
@@ -27,7 +29,7 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/principal_correo"
+        android:text="@string/label_correo"
         android:id="@+id/tv_Creditos"
         android:layout_alignParentBottom="true"
         android:layout_alignParentLeft="true"
@@ -36,44 +38,49 @@
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/principal_button_imc"
+        android:text="@string/button_imc"
         android:id="@+id/btn_IMC"
         android:layout_below="@+id/tv_SubTitulo"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="16dp" />
+        android:layout_marginTop="16dp"
+        android:onClick="imc" />
 
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/principal_button_vacaciones"
+        android:text="@string/button_vacaciones"
         android:id="@+id/btn_Vacaciones"
         android:layout_below="@+id/btn_IMC"
-        android:layout_centerHorizontal="true" />
+        android:layout_centerHorizontal="true"
+        android:onClick="vacaciones" />
 
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/principal_button_calculadora"
+        android:text="@string/label_calculadora"
         android:id="@+id/btn_Calculadora"
         android:layout_below="@+id/btn_Vacaciones"
-        android:layout_centerHorizontal="true" />
+        android:layout_centerHorizontal="true"
+        android:onClick="calculadora" />
 
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/principal_button_bienes_raices"
+        android:text="@string/button_bienes_raices"
         android:id="@+id/btn_BienesRaices"
         android:layout_below="@+id/btn_Calculadora"
         android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true" />
+        android:layout_alignParentEnd="true"
+        android:onClick="bienes_raices" />
 
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/principal_button_get"
+        android:text="@string/button_get"
         android:id="@+id/btn_GET"
         android:layout_below="@+id/btn_BienesRaices"
-        android:layout_centerHorizontal="true" />
+        android:layout_centerHorizontal="true"
+        android:onClick="get" />
 
     <Button
         android:layout_width="match_parent"
@@ -81,6 +88,7 @@
         android:id="@+id/btn_Autos"
         android:layout_below="@+id/btn_GET"
         android:layout_centerHorizontal="true"
-        android:text="@string/principal_button_autos" />
+        android:text="@string/button_autos"
+        android:onClick="autos" />
 
 </RelativeLayout>
