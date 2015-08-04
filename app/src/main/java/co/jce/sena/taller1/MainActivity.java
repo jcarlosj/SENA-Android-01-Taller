@@ -11,7 +11,8 @@ import android.widget.Button;
 public class MainActivity extends AppCompatActivity {
 
     private Button cIMC,
-                   cVacaciones;
+                   cVacaciones,
+                   cBienesRaices;
 
 
     @Override
@@ -21,6 +22,7 @@ public class MainActivity extends AppCompatActivity {
 
         cIMC = (Button) findViewById( R. id .btn_IMC );
         cVacaciones = ( Button ) findViewById( R .id .btn_Vacaciones );
+        cBienesRaices = ( Button ) findViewById( R .id .btn_BienesRaices );
 
         // Manejador de Eventos para el botón "Indice de Masa Corporal".
         cIMC .setOnClickListener( new View .OnClickListener() {
@@ -35,7 +37,16 @@ public class MainActivity extends AppCompatActivity {
 
             @Override
             public void onClick( View v ) {
-                vacaciones( null );
+                vacaciones(null);
+            }
+        });
+
+        // Manejador de Eventos para el botón "Calculo de cuota inicial y cuotas mensuales para la finaciación de vivienda de interés social".
+        cBienesRaices .setOnClickListener( new View .OnClickListener() {
+
+            @Override
+            public void onClick( View v ) {
+                bienes_raices(null);
             }
         });
 

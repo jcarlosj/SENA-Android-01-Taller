@@ -44,7 +44,7 @@
         <EditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/et_Antiguedad"
+            android:id="@+id/et_IngresoMensual"
             android:numeric="integer" />
 
         <TextView
@@ -56,14 +56,14 @@
         <EditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/et_Edad"
+            android:id="@+id/et_ValorDelInmueble"
             android:numeric="integer" />
 
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/button_calcular"
-            android:id="@+id/btn_CalcularPago" />
+            android:id="@+id/btn_CalcularFinaciacion" />
 
         <TextView
             android:layout_width="match_parent"

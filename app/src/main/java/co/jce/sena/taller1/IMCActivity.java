@@ -61,7 +61,6 @@ public class IMCActivity extends AppCompatActivity {
 
         mostrarAlerta( diagnostico( calcular( cEstatura, cPeso ) ), calcular( cEstatura, cPeso ) );
 
-
     }
 
     private double calcular( EditText cEstatura, EditText cPeso ) {

@@ -68,8 +68,7 @@
         android:id="@+id/btn_BienesRaices"
         android:layout_below="@+id/btn_Calculadora"
         android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true"
-        android:onClick="bienes_raices" />
+        android:layout_alignParentEnd="true" />
 
     <Button
         android:layout_width="match_parent"
