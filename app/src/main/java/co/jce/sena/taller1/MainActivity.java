@@ -6,13 +6,28 @@ import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
+import android.widget.Button;
 
 public class MainActivity extends AppCompatActivity {
+
+    private Button cIMC;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        cIMC = (Button) findViewById( R. id .btn_IMC );
+
+        // Manejador de Eventos para el botón "Indice de Masa Corporal".
+        cIMC .setOnClickListener( new View .OnClickListener() {
+            @Override
+            public void onClick( View v ) {
+                imc( null );
+            }
+        });
+
     }
 
     @Override

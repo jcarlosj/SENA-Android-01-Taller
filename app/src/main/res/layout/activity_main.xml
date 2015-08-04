@@ -42,8 +42,7 @@
         android:id="@+id/btn_IMC"
         android:layout_below="@+id/tv_SubTitulo"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="16dp"
-        android:onClick="imc" />
+        android:layout_marginTop="16dp" />
 
     <Button
         android:layout_width="match_parent"

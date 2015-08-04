@@ -32,7 +32,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:id="@+id/et_Estatura"
-            android:numeric="decimal" />
+            android:inputType="numberDecimal" />
 
         <TextView
             android:layout_width="match_parent"
@@ -44,7 +44,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:id="@+id/et_Peso"
-            android:numeric="decimal" />
+            android:inputType="numberDecimal" />
 
         <Button
             android:layout_width="match_parent"
