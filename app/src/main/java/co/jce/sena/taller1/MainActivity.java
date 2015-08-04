@@ -10,7 +10,8 @@ import android.widget.Button;
 
 public class MainActivity extends AppCompatActivity {
 
-    private Button cIMC;
+    private Button cIMC,
+                   cVacaciones;
 
 
     @Override
@@ -19,12 +20,22 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         cIMC = (Button) findViewById( R. id .btn_IMC );
+        cVacaciones = ( Button ) findViewById( R .id .btn_Vacaciones );
 
         // Manejador de Eventos para el botón "Indice de Masa Corporal".
         cIMC .setOnClickListener( new View .OnClickListener() {
             @Override
             public void onClick( View v ) {
                 imc( null );
+            }
+        });
+
+        // Manejador de Eventos para el botón "Calculo de vacaciones".
+        cVacaciones .setOnClickListener( new View .OnClickListener() {
+
+            @Override
+            public void onClick( View v ) {
+                vacaciones( null );
             }
         });
 

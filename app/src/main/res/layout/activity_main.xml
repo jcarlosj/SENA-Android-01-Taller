@@ -50,8 +50,7 @@
         android:text="@string/button_vacaciones"
         android:id="@+id/btn_Vacaciones"
         android:layout_below="@+id/btn_IMC"
-        android:layout_centerHorizontal="true"
-        android:onClick="vacaciones" />
+        android:layout_centerHorizontal="true" />
 
     <Button
         android:layout_width="match_parent"

@@ -44,7 +44,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:id="@+id/et_Antiguedad"
-            android:numeric="integer" />
+            android:numeric="integer"
+            android:inputType="number" />
 
         <TextView
             android:layout_width="match_parent"
@@ -56,7 +57,32 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:id="@+id/et_Edad"
-            android:numeric="integer" />
+            android:numeric="integer"
+            android:inputType="number" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/label_directivo"
+            android:id="@+id/tv_Directivo" />
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/rbg_Directivo">
+
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/label_si"
+                android:id="@+id/rb_DirectivoSi" />
+
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/label_no"
+                android:id="@+id/rb_DirectivoNo" />
+        </RadioGroup>
 
         <Button
             android:layout_width="match_parent"

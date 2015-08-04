@@ -108,7 +108,7 @@ public class IMCActivity extends AppCompatActivity {
 
         AlertDialog.Builder adb_Diagnostico = new AlertDialog.Builder( this );
 
-        adb_Diagnostico .setTitle( "" )
+        adb_Diagnostico .setTitle( "Índice de Masa Corporal (IMC)" )
                         .setMessage( "Su IMC es: " + imc + "\n Diagnóstico: " + diagnostico )
                         .setPositiveButton( "Aceptar", new DialogInterface.OnClickListener() {
 
