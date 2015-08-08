@@ -44,9 +44,6 @@ public class IMCActivity extends AppCompatActivity {
         cPeso = ( EditText ) findViewById( R .id .et_Peso );
         cCalcular = ( Button ) findViewById( R .id .btn_CalcularIMC );
 
-        cDiagnostico = ( TextView ) findViewById( R .id .tv_Diagnostico );  //: TEST
-
-
         // Manejador de Eventos para el botón "Calcular".
         cCalcular .setOnClickListener( new View .OnClickListener() {
             @Override
@@ -73,7 +70,7 @@ public class IMCActivity extends AppCompatActivity {
 
     private String diagnostico( double imc ) {
 
-        String diagnostico = "";
+        String diagnostico;
 
         if( imc < 16 ) {
             diagnostico = "Delgadez severa.";

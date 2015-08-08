@@ -22,9 +22,12 @@
     <string name="label_directivo">Directivo.</string>
     <string name="label_edad">Edad.</string>
     <string name="label_estatura">Estatura (Mts).</string>
+    <string name="label_femenino">Femenino</string>
+    <string name="label_genero">Género</string>
     <string name="label_get">Para calcular su Gasto Energético Total (GET) se requiere los siguientes datos.</string>
     <string name="label_imc">Para calcular su IMC se requiere los siguientes datos.</string>
     <string name="label_ingreso_mensual">Ingreso mensual.</string>
+    <string name="label_masculino">Masculino.</string>
     <string name="label_no">No.</string>
     <string name="label_nombres">Nombres.</string>
     <string name="label_peso">Peso (Kg).</string>

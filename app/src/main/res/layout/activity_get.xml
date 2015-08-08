@@ -25,18 +25,6 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/label_nombres"
-            android:id="@+id/tv_Nombres" />
-
-        <EditText
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:id="@+id/et_Nombres"
-            android:inputType="textCapCharacters" />
-
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
             android:text="@string/label_edad"
             android:id="@+id/tv_Edad" />
 
@@ -73,6 +61,35 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:text="@string/label_genero"
+            android:id="@+id/tv_Genero" />
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/rbg_Genero"
+            android:weightSum="2"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="@string/label_femenino"
+                android:id="@+id/rb_Femenino" />
+
+            <RadioButton
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="@string/label_masculino"
+                android:id="@+id/rb_Masculino" />
+
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
             android:text="@string/label_actividad_fisica"
             android:id="@+id/tv_ActividadFisica" />
 
@@ -85,7 +102,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/button_calcular"
-            android:id="@+id/btn_CalcularPago" />
+            android:id="@+id/btn_CalcularGET" />
 
         <TextView
             android:layout_width="match_parent"
