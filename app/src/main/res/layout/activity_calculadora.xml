@@ -43,7 +43,7 @@
             android:layout_width="58dp"
             android:layout_height="58dp"
             android:text="ac"
-            android:id="@+id/btn_BorrarTodo"
+            android:id="@+id/btn_AC"
             android:layout_row="0"
             android:layout_column="3" />
 
@@ -51,7 +51,7 @@
             android:layout_width="58dp"
             android:layout_height="58dp"
             android:text="del"
-            android:id="@+id/btn_BorrarPantalla"
+            android:id="@+id/btn_DEL"
             android:layout_row="0"
             android:layout_column="4" />
 
@@ -155,7 +155,7 @@
             android:layout_width="58dp"
             android:layout_height="58dp"
             android:text="exp"
-            android:id="@+id/btn_ElevadoA"
+            android:id="@+id/btn_Cuadrado"
             android:layout_row="3"
             android:layout_column="2" />
 
@@ -163,7 +163,7 @@
             android:layout_width="58dp"
             android:layout_height="58dp"
             android:text="rz"
-            android:id="@+id/button3"
+            android:id="@+id/btn_RaizCuadrada"
             android:layout_row="3"
             android:layout_column="3" />
 
@@ -171,7 +171,7 @@
             android:layout_width="58dp"
             android:layout_height="58dp"
             android:text="="
-            android:id="@+id/btn_Total"
+            android:id="@+id/btn_Igual"
             android:layout_row="3"
             android:layout_column="4" />
 
@@ -180,8 +180,8 @@
     <TextView
         android:layout_width="290dp"
         android:layout_height="60dp"
-        android:text="0."
-        android:id="@+id/textView"
+        android:text="0"
+        android:id="@+id/tv_Pantalla"
         android:textSize="50dp"
         android:layout_alignParentTop="true"
         android:layout_alignLeft="@+id/gridLayout"
@@ -190,11 +190,21 @@
 
     <TextView
         android:layout_width="290dp"
-        android:layout_height="60dp"
-        android:text="0."
-        android:id="@+id/textView2"
-        android:textSize="50dp"
+        android:layout_height="24dp"
+        android:id="@+id/tv_PantallaAuxiliar"
+        android:textSize="10dp"
         android:gravity="right"
-        android:layout_below="@+id/textView"
+        android:layout_below="@+id/tv_Pantalla"
         android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="290dp"
+        android:layout_height="24dp"
+        android:id="@+id/tv_Debugging"
+        android:textSize="10dp"
+        android:gravity="right"
+        android:layout_below="@+id/gridLayout"
+        android:layout_alignLeft="@+id/gridLayout"
+        android:layout_alignStart="@+id/gridLayout"
+        android:layout_alignParentBottom="true" />
 </RelativeLayout>
