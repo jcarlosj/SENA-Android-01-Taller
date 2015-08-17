@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:layout_weight="10">
+
+    <ImageView
+        android:id="@+id/iv_auto"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:src="@drawable/ic_ferrari"
+        android:padding="2dp" />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/tv_Escuderia"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Escudería"
+            android:textSize="16dp"
+            android:paddingLeft="4dp"
+            android:paddingTop="2dp"
+            android:paddingRight="4dp"
+            android:paddingBottom="2dp"
+            android:textColor="#0F0F0F" />
+
+        <TextView
+            android:id="@+id/tv_Base"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Base"
+            android:textSize="10dp"
+            android:paddingLeft="4dp"
+            android:paddingTop="0dp"
+            android:paddingRight="4dp"
+            android:paddingBottom="2dp" />
+
+        <TextView
+            android:id="@+id/tv_JefeEquipo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Jefe de Equipo"
+            android:textSize="10dp"
+            android:paddingLeft="4dp"
+            android:paddingTop="0dp"
+            android:paddingRight="4dp"
+            android:paddingBottom="2dp" />
+    </LinearLayout>
+
+
+</LinearLayout>
